@@ -190,13 +190,5 @@
     "thumbnailLink": "https://architecture.learning.sap.com/artifacts/thumbnails/embodied-ai-agents.svg",
     "acLink": "https://architecture.learning.sap.com/docs/ref-arch/083f2d968e",
     "shortDescription": "Embodied AI agents extend digital workflows into the physical world, enabling cognitive robots to adapt to changing business needs. SAP's vendor-agnostic approach leverages business semantics, contextual reasoning, and multi-agent interoperability, with Joule as the robotics interface."
-  },
-  {
-    "id": "ra0027",
-    "name": "Log Driven Security Operations with SAP Enterprise Threat Detection and FortiSIEM and FortiSOAR",
-    "drawioLink": "PLACEHOLDER:siem_soar_etd.drawio",
-    "thumbnailLink": "https://architecture.learning.sap.com/artifacts/thumbnails/log-driven-security-operations-with-sap-enterprise-threat-detection-and-fortisiem-and-fortisoar.svg",
-    "acLink": "https://architecture.learning.sap.com/docs/ref-arch/d6e703646d",
-    "shortDescription": "This reference architecture shows how SAP Enterprise Threat Detection provides log-driven security signals that are correlated in FortiSIEM and orchestrated through FortiSOAR to enable centralized monitoring incident investigation and automated response."
   }
 ]
