@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunksap_architecture_center=globalThis.webpackChunksap_architecture_center||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/@preview/jensalbrecht-agilita-RA0028-dahlinger/blog","blogTitle":"SAP Architecture Center - News","authorsListPath":"/@preview/jensalbrecht-agilita-RA0028-dahlinger/blog/authors"}')}}]);
