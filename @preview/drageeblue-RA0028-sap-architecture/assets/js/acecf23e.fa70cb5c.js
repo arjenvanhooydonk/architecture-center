@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksap_architecture_center=globalThis.webpackChunksap_architecture_center||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/@preview/drageeblue-RA0028-sap-architecture/blog","blogTitle":"SAP Architecture Center - News","authorsListPath":"/@preview/drageeblue-RA0028-sap-architecture/blog/authors"}')}}]);
