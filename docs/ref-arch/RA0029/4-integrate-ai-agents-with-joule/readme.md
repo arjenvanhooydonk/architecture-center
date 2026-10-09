@@ -2,7 +2,7 @@
 id: ae6821
 slug: /ref-arch/ae6821
 sidebar_position: 4
-title: Integrating AI Agents with Joule
+title: Integrating Low-Code and Pro-Code AI Agents with Joule
 description: >-
   Learn the architectural patterns for integrating both low-code and pro-code AI
   agents with Joule, SAP's AI copilot, for a unified user experience.
@@ -10,11 +10,15 @@ keywords:
   - sap
   - ai agents
   - joule
-  - integration
   - joule studio
+  - ai copilot
   - a2a
-  - pro-code
-  - low-code
+  - bring your own agent
+  - pro-code agents
+  - joule scenario
+  - joule dialog function
+  - sap ai core
+  - business ai platform
 sidebar_label: Integrating AI Agents with Joule
 image: img/ac-soc-med.png
 tags:
@@ -36,20 +40,18 @@ contributors:
 discussion: 
 last_update:
   author: kay-schmitteckert
-  date: 2026-05-04
+  date: 2026-08-27
 ---
 
 :::info Disclaimer
-The Agent Gateway is not yet generally available (GA). As a result, the current architecture supports unidirectional (outbound) communication only.
-
-This reflects a transitional state - key components enabling full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly.
+Some components and capabilities of this reference architecture are not yet generally available (GA) — the current architecture reflects a transitional state highlighting the relevant building blocks for an agentic architecture based on SAP Business AI Platform. In particular the bidirectional communication with 3rd-party and self-hosted agents through Agent Gateway is not yet supported. Full bidirectional capabilities are expected to be released soon and will evolve the architecture accordingly.
 :::
 
 For AI agents to deliver value in an enterprise context, they must be easily accessible to end-users within their natural workflow. In the SAP ecosystem, **Joule** is the single, trusted AI copilot that provides a consistent conversational interface across all SAP applications.
 
 Therefore, a critical step in the agent development lifecycle is integrating your custom-built agents—whether low-code or pro-code—with Joule. This ensures that users can interact with your agent's specialized capabilities through the same familiar interface they use for all other SAP-related tasks.
 
-## Architecture of a Unified Experience
+## Architecture
 
 Joule acts as the central orchestrator and entry point for all user interactions. When a user makes a request, Joule's planning and reasoning engine determines the best way to fulfill it. This may involve using a built-in skill, retrieving information, or delegating the task to a custom AI agent.
 
